@@ -16,7 +16,7 @@ class Solution {
 
         // 3. 두 값 중 더 큰 값을 반환
         return Math.max(ab, two_multyply_AB);
-        /* 해당 부분은 ab와 two_multyply_AB 중에서 더 큰값을 반환 해주며 Math.max() 함수는 두개의 정수를 입력            받아 더 큰 값을 return(반환) 한다.
+        /* 해당 부분은 ab와 two_multyply_AB 중에서 더 큰값을 반환 해주며 Math.max() 함수는 두개의 정수를 입력                      받아 더 큰 값을 return(반환) 한다.
         */
 
     }
