@@ -2,8 +2,10 @@ class Solution {
     public int solution(int a, int b) {
         // 1. a + b 연산
         int ab = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
-        /* 해당 부분은 두 정수 a와 b를 문자열로 변환한 후 이어붙인 결과를 정수로 다시 변환 하는 역할을 수행 한다.
-           먼저 String.valueOf(a) 와 String.valueOf(b)는 각각 정수 a와 b를 문자열로 변환 시킨 후 정수                  로 다시 변환하여 ab 변수에 값을 대입(저장) 한다.
+        /* 해당 부분은 두 정수 a와 b를 문자열로 변환한 후
+           이어붙인 결과를 정수로 다시 변환 하는 역할을 수행 한다.
+           먼저 String.valueOf(a) 와 String.valueOf(b)는 각각
+           정수 a와 b를 문자열로 변환 시킨 후 정수로 다시 변환하여 ab 변수에 값을 대입(저장) 한다.
         */
         
         // 2. 2 * a * b 연산
